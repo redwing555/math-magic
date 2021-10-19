@@ -1,39 +1,61 @@
-.App {
-  text-align: center;
+.calculator {
+  margin: auto;
+  width: 50%;
+  padding: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table th {
+  padding: 0;
+  margin: 0;
+  border: 2px solid gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input-number {
+  padding: 3rem 15rem;
+  background-color: rgb(120, 120, 146);
   color: white;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  border: 3px solid gray;
 }
 
-.App-link {
-  color: #61dafb;
+.zero {
+  padding: 2.5rem;
+  margin-right: 5rem;
+  border: none;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.numbers {
+  display: grid;
+  color: black;
+  border: none;
+  padding: 2.5rem 4rem;
+  font-weight: bolder;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.glob {
+  width: 100%;
+  cursor: pointer;
+}
+
+.glob:active {
+  transition: 100ms;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+.operations {
+  background-color: orange;
+  border: none;
+  padding: 2.5rem 4rem;
+  margin: 0;
+  font-weight: bolder;
 }
