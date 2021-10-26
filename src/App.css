@@ -1,42 +1,38 @@
 .calculator {
   margin-top: 1rem;
-  float:right;
+  float: right;
   margin-right: 10%;
-  padding-bottom: 2rem ;
+  padding-bottom: 2rem;
 }
 
-.do-math{
-  
+.do-math {
   margin-top: 4rem;
   font-family: 'Orbitron', sans-serif;
 }
 
-.navBar{
+.navBar {
   padding: 2rem;
   background-color: gray;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  
-}
-.navBar ul{
-   list-style: none;
-   display : flex;
-   justify-content : right;
-   justify-items: right;
-   margin-right: 5rem;
-   margin-top: -3rem;
-   gap: 1rem;
-   
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px, rgba(0, 0, 0, 0.3) 0 18px 36px -18px;
 }
 
-.navBar ul li a{
+.navBar ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  justify-items: right;
+  margin-right: 5rem;
+  margin-top: -3rem;
+  gap: 1rem;
+}
+
+.navBar ul li a {
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
   color: white;
-
-  
 }
 
-.navBar h1{
+.navBar h1 {
   font-family: 'Orbitron', sans-serif;
   color: orangered;
 }
@@ -46,30 +42,26 @@
   text-decoration: underline;
 }
 
-.welcome:hover{
-
-  color: orangered;
-}
-
-
-.welcome{
-
+.welcome {
   font-family: 'Orbitron', sans-serif;
   font-weight: bolder;
   font-size: 4rem;
   padding: 1rem;
 }
 
-.intro{
+.welcome:hover {
+  color: orangered;
+}
+
+.intro {
   font-family: monospace;
-  margin:1rem;
-  padding:1rem;
+  margin: 1rem;
+  padding: 1rem;
   font-weight: 800;
-  font-size:1rem;
+  font-size: 1rem;
   border-left: 5px solid orangered;
   background-color: rgb(228, 228, 228);
 }
-
 
 table {
   width: 100%;
@@ -152,17 +144,15 @@ table th {
   font-weight: bolder;
 }
 
-.quote-author{
+.quote-author {
   margin-top: 10rem;
   margin-left: 10rem;
   font-family: monospace;
   font-size: 2rem;
-  
-
 }
 
-.quote{
-  font-family:monospace;
+.quote {
+  font-family: monospace;
   font-weight: bolder;
   text-align: center;
   font-size: 2rem;
@@ -170,6 +160,5 @@ table th {
   background-color: rgb(228, 228, 228);
   margin: 1rem 1rem;
   border: 5px solid orangered;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
