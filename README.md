@@ -2,8 +2,9 @@
 
 Simple Calculator built with React. It allows users to make simple calculations and read a random math-releted quote.
 
-## Calculator Preview
-![](./calculator.png)
+## Live 
+![Heroku : in Here ! ](https://magic-in-math.herokuapp.com/)
+
 
 ## Installation
 
@@ -26,7 +27,7 @@ You can now view the development server at `localhost:3000`.
 
 ## Author
 
-👤 **Saman Atashi**
+👤 **Houssam HICHAMI**
 
 
 - GitHub: [@redwing555](https://github.com/redwing555)
