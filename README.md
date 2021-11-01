@@ -3,7 +3,7 @@
 Simple Calculator built with React. It allows users to make simple calculations and read a random math-releted quote.
 
 ## Live 
-![Heroku : in Here ! ](https://magic-in-math.herokuapp.com/)
+[Heroku : in Here ! ](https://magic-in-math.herokuapp.com/)
 
 
 ## Installation
